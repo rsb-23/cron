@@ -1,0 +1,35 @@
+name: Chess Tournament Tracker
+
+on:
+  schedule:
+    # Every Monday at 03:30 UTC (09:00 IST)
+    - cron: "30 3 * * 1"
+  workflow_dispatch:        # allow manual trigger from Actions tab
+
+jobs:
+  fetch-and-commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write       # needed to push the updated JSON
+
+    steps:
+      - name: Checkout repository
+        uses: rsb-23/actions/checkout@main
+
+      - name: Set up Python
+        uses: rsb-23/actions/setup-python@main
+        with:
+          python-version: "3.12"
+
+      - name: Run chess scraper
+        run: python scripts/fetch_chess.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/chess.json
+          # Only commit if something actually changed
+          git diff --staged --quiet \
+            || git commit -m "data: update chess tournaments $(date -u +'%Y-%m-%d') [skip ci]"
+          git push

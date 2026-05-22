@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cron Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=IBM+Plex+Mono:wght@400;500&family=DM+Sans:wght@400;500;600&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Cron<span>Dashboard</span></div>
+    <nav id="tabNav">
+        <button class="tab-btn" data-tab="chess">♟ Chess</button>
+        <button class="tab-btn active" data-tab="weather">🌦 Weather</button>
+<!--        <button class="tab-btn" data-tab="ideas">💡 Ideas</button>-->
+    </nav>
+    <div class="header-meta"><span class="pulse"></span>auto-updated</div>
+</header>
+
+<!-- ═══ CHESS TAB ═══ -->
+<div id="tab-chess" class="tab-panel">
+    <div class="container">
+        <div class="section-header">
+            <div>
+                <div class="section-title">Chhattisgarh Chess</div>
+                <div class="section-sub">SOURCE: CHESSEVENTS.CO.IN · WEEKLY UPDATE</div>
+            </div>
+            <div class="updated-badge" id="chessUpdated"></div>
+        </div>
+        <div id="chessStats" class="stat-bar" style="display:none"></div>
+        <div class="filters" id="chessFilters" style="display:none">
+            <label>Month</label>
+            <select id="filterMonth">
+                <option value="">All months</option>
+            </select>
+            <label>Location</label>
+            <select id="filterLocation">
+                <option value="">All locations</option>
+            </select>
+            <label>Search</label>
+            <input type="text" id="filterSearch" placeholder="name or category…" style="width:180px">
+            <button class="filter-clear" id="clearFilters">Clear</button>
+        </div>
+        <div id="chessContent">
+            <div class="loading">
+                <div class="spinner"></div>
+                Loading tournament data…
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ═══ WEATHER TAB ═══ -->
+<div id="tab-weather" class="tab-panel active">
+    <div class="container">
+        <div class="section-header">
+            <div>
+                <div class="section-title">7-Day Forecast</div>
+                <div class="section-sub">SOURCE: OPEN-METEO · DAILY UPDATE · IST</div>
+            </div>
+            <div class="updated-badge" id="weatherUpdated"></div>
+        </div>
+        <div id="weatherContent">
+            <div class="loading">
+                <div class="spinner"></div>
+                Loading weather data…
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer>
+    <span>Built by <a href="https://github.com/rsb-23">Rishabh</a></span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

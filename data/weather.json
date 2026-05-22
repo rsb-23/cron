@@ -1,0 +1,208 @@
+{
+  "updated": "2026-05-22T21:52:43Z",
+  "timezone": "Asia/Kolkata",
+  "cities": [
+    {
+      "name": "Raipur",
+      "lat": 21.2514,
+      "lon": 81.6296,
+      "forecast": [
+        {
+          "date": "2026-05-22",
+          "max_temp": 44.0,
+          "min_temp": 31.1,
+          "feels_like_max": 43.5,
+          "wmo_code": 3,
+          "condition": "Overcast",
+          "emoji": "☁️",
+          "precipitation_mm": 0.0,
+          "precip_probability": 0,
+          "wind_kmh": 15.8,
+          "uv_index": 9.0,
+          "sunrise": "05:22",
+          "sunset": "18:37"
+        },
+        {
+          "date": "2026-05-23",
+          "max_temp": 43.3,
+          "min_temp": 29.5,
+          "feels_like_max": 43.4,
+          "wmo_code": 2,
+          "condition": "Partly Cloudy",
+          "emoji": "⛅",
+          "precipitation_mm": 0.0,
+          "precip_probability": 0,
+          "wind_kmh": 12.5,
+          "uv_index": 8.95,
+          "sunrise": "05:22",
+          "sunset": "18:37"
+        },
+        {
+          "date": "2026-05-24",
+          "max_temp": 43.0,
+          "min_temp": 29.2,
+          "feels_like_max": 44.0,
+          "wmo_code": 3,
+          "condition": "Overcast",
+          "emoji": "☁️",
+          "precipitation_mm": 0.0,
+          "precip_probability": 0,
+          "wind_kmh": 13.9,
+          "uv_index": 9.0,
+          "sunrise": "05:22",
+          "sunset": "18:37"
+        },
+        {
+          "date": "2026-05-25",
+          "max_temp": 43.7,
+          "min_temp": 29.6,
+          "feels_like_max": 44.6,
+          "wmo_code": 1,
+          "condition": "Mainly Clear",
+          "emoji": "🌤️",
+          "precipitation_mm": 0.0,
+          "precip_probability": 0,
+          "wind_kmh": 10.0,
+          "uv_index": 9.0,
+          "sunrise": "05:22",
+          "sunset": "18:38"
+        }
+      ]
+    },
+    {
+      "name": "Bilaspur",
+      "lat": 22.0796,
+      "lon": 82.1391,
+      "forecast": [
+        {
+          "date": "2026-05-22",
+          "max_temp": 42.8,
+          "min_temp": 29.6,
+          "feels_like_max": 42.8,
+          "wmo_code": 3,
+          "condition": "Overcast",
+          "emoji": "☁️",
+          "precipitation_mm": 0.0,
+          "precip_probability": 0,
+          "wind_kmh": 19.1,
+          "uv_index": 9.0,
+          "sunrise": "05:19",
+          "sunset": "18:36"
+        },
+        {
+          "date": "2026-05-23",
+          "max_temp": 43.4,
+          "min_temp": 27.6,
+          "feels_like_max": 45.1,
+          "wmo_code": 1,
+          "condition": "Mainly Clear",
+          "emoji": "🌤️",
+          "precipitation_mm": 0.0,
+          "precip_probability": 0,
+          "wind_kmh": 22.1,
+          "uv_index": 9.0,
+          "sunrise": "05:19",
+          "sunset": "18:37"
+        },
+        {
+          "date": "2026-05-24",
+          "max_temp": 41.8,
+          "min_temp": 27.7,
+          "feels_like_max": 43.4,
+          "wmo_code": 1,
+          "condition": "Mainly Clear",
+          "emoji": "🌤️",
+          "precipitation_mm": 0.0,
+          "precip_probability": 0,
+          "wind_kmh": 14.1,
+          "uv_index": 9.0,
+          "sunrise": "05:19",
+          "sunset": "18:37"
+        },
+        {
+          "date": "2026-05-25",
+          "max_temp": 43.0,
+          "min_temp": 27.6,
+          "feels_like_max": 45.2,
+          "wmo_code": 0,
+          "condition": "Clear Sky",
+          "emoji": "☀️",
+          "precipitation_mm": 0.0,
+          "precip_probability": 2,
+          "wind_kmh": 8.4,
+          "uv_index": 9.0,
+          "sunrise": "05:18",
+          "sunset": "18:38"
+        }
+      ]
+    },
+    {
+      "name": "Kachna",
+      "lat": 21.2657,
+      "lon": 81.7094,
+      "forecast": [
+        {
+          "date": "2026-05-22",
+          "max_temp": 42.5,
+          "min_temp": 29.0,
+          "feels_like_max": 42.8,
+          "wmo_code": 3,
+          "condition": "Overcast",
+          "emoji": "☁️",
+          "precipitation_mm": 0.0,
+          "precip_probability": 0,
+          "wind_kmh": 15.2,
+          "uv_index": 9.0,
+          "sunrise": "05:22",
+          "sunset": "18:36"
+        },
+        {
+          "date": "2026-05-23",
+          "max_temp": 41.8,
+          "min_temp": 27.8,
+          "feels_like_max": 42.3,
+          "wmo_code": 2,
+          "condition": "Partly Cloudy",
+          "emoji": "⛅",
+          "precipitation_mm": 0.0,
+          "precip_probability": 0,
+          "wind_kmh": 14.0,
+          "uv_index": 8.95,
+          "sunrise": "05:22",
+          "sunset": "18:37"
+        },
+        {
+          "date": "2026-05-24",
+          "max_temp": 41.5,
+          "min_temp": 28.1,
+          "feels_like_max": 44.0,
+          "wmo_code": 3,
+          "condition": "Overcast",
+          "emoji": "☁️",
+          "precipitation_mm": 0.0,
+          "precip_probability": 0,
+          "wind_kmh": 16.3,
+          "uv_index": 9.0,
+          "sunrise": "05:21",
+          "sunset": "18:37"
+        },
+        {
+          "date": "2026-05-25",
+          "max_temp": 42.0,
+          "min_temp": 27.9,
+          "feels_like_max": 44.0,
+          "wmo_code": 1,
+          "condition": "Mainly Clear",
+          "emoji": "🌤️",
+          "precipitation_mm": 0.0,
+          "precip_probability": 0,
+          "wind_kmh": 8.9,
+          "uv_index": 9.0,
+          "sunrise": "05:21",
+          "sunset": "18:38"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
