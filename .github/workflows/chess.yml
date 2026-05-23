@@ -19,7 +19,9 @@ jobs:
       - uses: rsb-23/actions/setup-python@main
 
       - name: Run chess scraper
-        run: python scripts/fetch_chess.py
+        run: |
+          pip install .
+          python scripts/fetch_chess.py
 
       - name: Commit and push changes
         uses: rsb-23/actions/commit-n-push@main
