@@ -4,32 +4,26 @@ on:
   schedule:
     # Every Monday at 03:30 UTC (09:00 IST)
     - cron: "30 3 * * 1"
-  workflow_dispatch:        # allow manual trigger from Actions tab
+  workflow_dispatch:
 
 jobs:
   fetch-and-commit:
     runs-on: ubuntu-latest
     permissions:
-      contents: write       # needed to push the updated JSON
+      contents: write
 
     steps:
-      - name: Checkout repository
-        uses: rsb-23/actions/checkout@main
-
-      - name: Set up Python
-        uses: rsb-23/actions/setup-python@main
+      - uses: rsb-23/actions/checkout@main
         with:
-          python-version: "3.12"
+          persist-credentials: true
+      - uses: rsb-23/actions/setup-python@main
 
       - name: Run chess scraper
         run: python scripts/fetch_chess.py
 
-      - name: Commit updated data
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/chess.json
-          # Only commit if something actually changed
-          git diff --staged --quiet \
-            || git commit -m "data: update chess tournaments $(date -u +'%Y-%m-%d') [skip ci]"
-          git push
+      - name: Commit and push changes
+        uses: rsb-23/actions/commit-n-push@main
+        with:
+          git_user: "cron[bot]"
+          files: "data/"
+          commit_message: "data: update chess tournaments [skip ci]"
