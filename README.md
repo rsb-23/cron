@@ -1,4 +1,4 @@
-# CG Data Dashboard
+# Cron Dashboard
 
 A lightweight GitHub Pages dashboard powered by GitHub Actions cron jobs.
 No servers, no databases — just Python scripts + static JSON + one HTML file.
@@ -37,9 +37,9 @@ Edit `scripts/fetch_weather.py` and update the `CITIES` list:
 
 ```python
 CITIES = [
-    {"name": "Raipur",   "lat": 21.2514, "lon": 81.6296},
-    {"name": "Bilaspur", "lat": 22.0796, "lon": 82.1391},
-    {"name": "Durg",     "lat": 21.1904, "lon": 81.2849},
+    {"name": "Pune",      "lat": 21.1904, "lon": 81.2849},
+    {"name": "Mumbai",    "lat": 22.0796, "lon": 82.1391},
+    {"name": "Bengaluru", "lat": 21.2514, "lon": 81.6296},
 ]
 ```
 

@@ -11,8 +11,8 @@ To change cities, edit the CITIES list below.
 import json
 import urllib.parse
 import urllib.request
-from datetime import datetime
-from pathlib import Path
+
+from utils import formatted_now, save_as_json
 
 CITIES = [
     {"name": "Raipur", "lat": 21.2514, "lon": 81.6296},
@@ -128,15 +128,9 @@ def main():
             print(f"✗  {exc}")
             errors.append({"city": city["name"], "error": str(exc)})
 
-    out = {
-        "updated": datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "timezone": "Asia/Kolkata",
-        "cities": results,
-        "errors": errors,
-    }
+    out = {"updated": formatted_now(), "timezone": "Asia/Kolkata", "cities": results, "errors": errors}
+    save_as_json("weather.json", data=out)
 
-    Path("data").mkdir(exist_ok=True)
-    Path("data/weather.json").write_text(json.dumps(out, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"\n✓ Saved weather for {len(results)} cities → data/weather.json")
     if errors:
         print(f"  {len(errors)} error(s): {[e['city'] for e in errors]}")

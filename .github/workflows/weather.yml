@@ -26,4 +26,4 @@ jobs:
         with:
           git_user: "cron[bot]"
           files: "data/"
-          commit_message: "data: update weather forecast [skip ci]"
+          commit_message: "data: update weather forecast [no ci]"
