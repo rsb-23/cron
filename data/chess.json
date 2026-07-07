@@ -1,8 +1,38 @@
 {
-  "updated": "2026-07-06T08:03:28Z",
+  "updated": "2026-08-02T06:15:51Z",
   "source": "https://chessevents.co.in/chhattisgarh-chess-tournament/",
-  "count": 12,
+  "count": 15,
   "tournaments": [
+    {
+      "name": "2nd IM Sagar Shah Visionary Below 1800 Chess Cup -2026",
+      "category": "",
+      "location": "Raipur (C.G.)",
+      "date": "19th July 2026",
+      "prize_fund": "Total Cash Prize Fund: Rs. 3,00,000/-",
+      "venue": "Anjaneya University, Raipur (CG)",
+      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060301.pdf",
+      "month": "Past Tournament"
+    },
+    {
+      "name": "Chhattisgarh State U-13 Fide Rated Chess Championship -2026",
+      "category": "(State Selection For National U-13 Championship)",
+      "location": "Raipur (C.G.)",
+      "date": "15th-16th July 2026",
+      "prize_fund": "Total Cash Prize Fund: Rs.",
+      "venue": "Raipur (CG)",
+      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060301.pdf",
+      "month": "Past Tournament"
+    },
+    {
+      "name": "Chhattisgarh State U-11 Fide Rated Chess Championship -2026",
+      "category": "(State Selection For National U-11 Championship)",
+      "location": "Raipur (C.G.)",
+      "date": "27th-28th June 2026",
+      "prize_fund": "Total Cash Prize Fund: Rs. 20,000/-",
+      "venue": "CGSCA Academic Center, BSJ Indoor Stadium, Budha Talab, Raipur (CG)",
+      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060301.pdf",
+      "month": "Past Tournament"
+    },
     {
       "name": "2nd Monsoon Fiesta Grand Chess Open Below 1800 Chess Tournament",
       "category": "",
