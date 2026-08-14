@@ -3,7 +3,8 @@ name = "cron"
 version = "1.0"
 dependencies = ["beautifulsoup4"]
 requires-python = ">=3.12"
-[project.optional-dependencies]
+
+[dependency-groups]
 lint = ["pre-commit"]
 
 [tool.ruff]
@@ -11,9 +12,6 @@ include = ["pyproject.toml", "scripts/**/*.py"]
 line-length = 120
 output-format = "concise"
 target-version = "py312"
-
-[tool.ruff.format]
-skip-magic-trailing-comma = true
 
 [tool.ruff.lint]
 select = ["F", "E", "W", "B", "I", "PL", "RUF"]

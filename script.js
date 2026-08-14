@@ -14,17 +14,6 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
 //  HELPERS
 // ────────────────────────────────────────────────
 
-function fmtUpdated(iso) {
-    if (!iso) return '';
-    try {
-        const d = new Date(iso);
-        return 'Updated ' + d.toLocaleDateString('en-IN', {day: 'numeric', month: 'short', year: 'numeric'})
-            + ' ' + d.toLocaleTimeString('en-IN', {hour: '2-digit', minute: '2-digit', hour12: false}) + ' UTC';
-    } catch {
-        return '';
-    }
-}
-
 function dayName(isoDate, index) {
     if (index === 0) return 'Today';
     if (index === 1) return 'Tomorrow';
@@ -119,7 +108,7 @@ function esc(s) {
 async function initChess() {
     try {
         const data = await loadJSON('./data/chess.json');
-        document.getElementById('chessUpdated').textContent = fmtUpdated(data.updated);
+        document.getElementById('chessUpdated').textContent = data.updated;
         allTournaments = data.tournaments || [];
 
         if (allTournaments.length === 0) {
@@ -189,7 +178,7 @@ function tempColor(t) {
 async function initWeather() {
     try {
         const data = await loadJSON('./data/weather.json');
-        document.getElementById('weatherUpdated').textContent = fmtUpdated(data.updated);
+        document.getElementById('weatherUpdated').textContent = data.updated;
         const cities = data.cities || [];
 
         if (cities.length === 0) {
