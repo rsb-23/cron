@@ -2,8 +2,8 @@ name: Chess Tournament Tracker
 
 on:
   schedule:
-    # On date 2,16 at 03:30 UTC (09:00 IST)
-    - cron: "30 3 2,16 * *"
+    # Every 7th day at 03:30 UTC (09:00 IST)
+    - cron: "30 3 */7 * *"
   workflow_dispatch:
 
 jobs:

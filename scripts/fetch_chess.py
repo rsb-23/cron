@@ -17,7 +17,7 @@ URL = "https://chessevents.co.in/chhattisgarh-chess-tournament/"
 
 
 def get_month(tour_date: str) -> str:
-    end_date_part = tour_date.split("-")[-1]  # "13th April 2026"
+    end_date_part = tour_date.rsplit("-", maxsplit=1)[-1]  # "13th April 2026"
 
     # 2. Strip out the 'th', 'st', 'nd', or 'rd' from the day
     clean_date_str = re.sub(r"(\d+)(st|nd|rd|th)", r"\1", end_date_part)  # "13 April 2026"
