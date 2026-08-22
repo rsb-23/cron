@@ -1,8 +1,38 @@
 {
-  "updated": "15 Aug 2026 09:35 IST",
+  "updated": "22 Aug 2026 09:36 IST",
   "source": "https://chessevents.co.in/chhattisgarh-chess-tournament/",
-  "count": 15,
+  "count": 16,
   "tournaments": [
+    {
+      "name": "All India Open Fide Rated Chess Tournament -2026",
+      "category": "",
+      "location": "Jashpur Nagar (C.G.)",
+      "date": "29th August-01st September 2026",
+      "prize_fund": "Total Cash Prize Fund: Rs.",
+      "venue": "Community Hall Purani Toli, Jashpur Nagar (CG)",
+      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060401.pdf",
+      "month": "Sep 2026"
+    },
+    {
+      "name": "5th KPS Tulsi Strategic Time Control Open & U-15 Chess Cup -2026",
+      "category": "",
+      "location": "Raipur (C.G.)",
+      "date": "22nd August 2026",
+      "prize_fund": "Total Cash Prize Fund: Rs. 1,20,000/-",
+      "venue": "Ambuja Mall, Raipur (CG)",
+      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060401.pdf",
+      "month": "Aug 2026"
+    },
+    {
+      "name": "Chhattisgarh State Junior FIDE Rated Chess Championship -2026",
+      "category": "(State Selection For National Junior Championship)",
+      "location": "Raipur (C.G.)",
+      "date": "14th-16th August 2026",
+      "prize_fund": "Total Cash Prize Fund: Rs.",
+      "venue": "Jain Bhawan, Sector 6, Bhilai (CG)",
+      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060401.pdf",
+      "month": "Aug 2026"
+    },
     {
       "name": "2nd IM Sagar Shah Visionary Below 1800 Chess Cup -2026",
       "category": "",
@@ -10,7 +40,7 @@
       "date": "19th July 2026",
       "prize_fund": "Total Cash Prize Fund: Rs. 3,00,000/-",
       "venue": "Anjaneya University, Raipur (CG)",
-      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060301.pdf",
+      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060401.pdf",
       "month": "Past Tournament"
     },
     {
@@ -20,7 +50,7 @@
       "date": "15th-16th July 2026",
       "prize_fund": "Total Cash Prize Fund: Rs.",
       "venue": "Raipur (CG)",
-      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060301.pdf",
+      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060401.pdf",
       "month": "Past Tournament"
     },
     {
@@ -30,7 +60,7 @@
       "date": "27th-28th June 2026",
       "prize_fund": "Total Cash Prize Fund: Rs. 20,000/-",
       "venue": "CGSCA Academic Center, BSJ Indoor Stadium, Budha Talab, Raipur (CG)",
-      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060301.pdf",
+      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060401.pdf",
       "month": "Past Tournament"
     },
     {
@@ -40,7 +70,7 @@
       "date": "21st June 2026",
       "prize_fund": "Total Cash Prize Fund: Rs. 2,00,000/-",
       "venue": "Ambuja Mall, Raipur (CG)",
-      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060301.pdf",
+      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060401.pdf",
       "month": "Past Tournament"
     },
     {
@@ -50,7 +80,7 @@
       "date": "14th June 2026",
       "prize_fund": "Total Cash Prize Fund: Rs.",
       "venue": "Magneto, The Mall, Raipur (CG)",
-      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060301.pdf",
+      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060401.pdf",
       "month": "Past Tournament"
     },
     {
@@ -60,7 +90,7 @@
       "date": "30th-31st May 2026",
       "prize_fund": "Total Cash Prize Fund: Rs. 51,000/-",
       "venue": "Saraswati Shishu Mandir School, Ambikapur (CG)",
-      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060301.pdf",
+      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060401.pdf",
       "month": "Past Tournament"
     },
     {
@@ -70,7 +100,7 @@
       "date": "10th May 2026",
       "prize_fund": "Total Cash Prize Fund: Rs. 1,00,000/-",
       "venue": "Ambuja Mall, Raipur (CG)",
-      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060301.pdf",
+      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060401.pdf",
       "month": "Past Tournament"
     },
     {
@@ -80,7 +110,7 @@
       "date": "03rd May 2026",
       "prize_fund": "Total Cash Prize Fund: Rs. 50,000/-",
       "venue": "Bilaspur (CG)",
-      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060301.pdf",
+      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060401.pdf",
       "month": "Past Tournament"
     },
     {
@@ -90,7 +120,7 @@
       "date": "02nd-3rd May 2026",
       "prize_fund": "Total Cash Prize Fund: Rs.",
       "venue": "Balbir Singh Juneja Indoor Stadium Raipur, Infront of Vivekanand Sarovar, Raipur (CG)",
-      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060301.pdf",
+      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060401.pdf",
       "month": "Past Tournament"
     },
     {
@@ -100,7 +130,7 @@
       "date": "25th-26th April 2026",
       "prize_fund": "Total Cash Prize Fund: Rs.",
       "venue": "Milestone Extramile School, Junwani Road, Bhilai (CG)",
-      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060301.pdf",
+      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060401.pdf",
       "month": "Past Tournament"
     },
     {
@@ -110,7 +140,7 @@
       "date": "19th April 2026",
       "prize_fund": "Total Cash Prize Fund: Rs. 40,000/-",
       "venue": "Nirmal Vidyalaya, Jagdalpur (CG)",
-      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060301.pdf",
+      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060401.pdf",
       "month": "Past Tournament"
     },
     {
@@ -120,7 +150,7 @@
       "date": "10th-13th April 2026",
       "prize_fund": "Total Cash Prize Fund: Rs. 2,00,000/-",
       "venue": "Govt. Polytechnic College, Ambikapur (C.G.)",
-      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060301.pdf",
+      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060401.pdf",
       "month": "Past Tournament"
     },
     {
@@ -130,27 +160,7 @@
       "date": "05th April 2026",
       "prize_fund": "Total Cash Prize Fund: Rs. 70,000/-",
       "venue": "Ambuja City Centre Mall, Raipur (CG)",
-      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060301.pdf",
-      "month": "Past Tournament"
-    },
-    {
-      "name": "45th National Team Chess Championship – 2026 & 23rd National Women Team Chess Championship – 2026",
-      "category": "",
-      "location": "Raipur (C.G.)",
-      "date": "16th-22nd March 2026",
-      "prize_fund": "Total Cash Prize Fund: Rs. 9,00,000/-",
-      "venue": "Agrasen Dham, Chhokara, Nara, Raipur (CG)",
-      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060301.pdf",
-      "month": "Past Tournament"
-    },
-    {
-      "name": "Late Shri Trilok Chandra Jain Memorial Open Rapid Chess Championship -2026",
-      "category": "",
-      "location": "Bilaspur (C.G.)",
-      "date": "15th March 2026",
-      "prize_fund": "Total Cash Prize Fund: Rs. 90,000/-",
-      "venue": "Gyanam Palace, Sarju Bagicha, Bilaspur (C.G.)",
-      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060301.pdf",
+      "download_url": "https://chessevents.co.in/wp-content/uploads/2026/03/ST-CG-Rapid-060401.pdf",
       "month": "Past Tournament"
     }
   ]
